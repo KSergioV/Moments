@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+
+    color: #fff;
+
+    background-color: rgb(71, 71, 71);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time {
+    font-size: 8rem;
+    letter-spacing: 5px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+    .time {
+        font-size: 6rem;
+    }
+}
